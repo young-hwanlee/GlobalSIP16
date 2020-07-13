@@ -8,9 +8,10 @@ The algorithms were tested using simulated PMU data from the PSS/E simulator. Th
 ## Mean Square Error performance vs Dictionary Size
 As a performance metric, the average normalized mean-square error (MSE) was used as the dictionary (linear combination of a set of template vectors, called atoms) size is varied:
 ![online_synthetic_no_outliers_mse_vs_M_v2](https://user-images.githubusercontent.com/67979833/87259927-b59a5280-c47c-11ea-862b-9ec5b84c6092.png)
-where Fixed dictionary: dictionary constructed by randomly sampling from Z and fixed  
-      Pruning only: dictionary initially constructed with only a few random data vectors, but subsequently updated through the pruning procedure with the maximum budget set  
-      Sparsification + pruning: 
+where
+> Fixed dictionary: dictionary constructed by randomly sampling from Z and fixed  
+> Pruning only: dictionary initially constructed with only a few random data vectors, but subsequently updated through the pruning procedure with the maximum budget set  
+> Sparsification + pruning: 
 
 ## Reference
 [1] S.-J. Kim, Y. Lee, and K. Y. Lee, "Robust subspace approaches for analyzing incomplete synchrophasor measurements,” in Proc. of the 9th IFAC Symposium on Control of Power and Energy Systems, New Delhi, India, Dec. 2015, pp. 120–125.
