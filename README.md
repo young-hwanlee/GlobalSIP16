@@ -16,5 +16,5 @@ where
 * Pruning only: dictionary initially constructed with a few random data vectors, but subsequently updated through the pruning procedure with the maximum budget set  
 * Sparsification + pruning: dictionary (simiarly to pruning only) initially constructed with a few random data vectors, updated only when it is deemed to sufficiently contribute to the diversity based on some appropriated metric (and then, updated through the pruning procedure)
 
-## Reference
+## References
 [1] S.-J. Kim, Y. Lee, and K. Y. Lee, "Robust subspace approaches for analyzing incomplete synchrophasor measurements,” in Proc. of the 9th IFAC Symposium on Control of Power and Energy Systems, New Delhi, India, Dec. 2015, pp. 120–125.
