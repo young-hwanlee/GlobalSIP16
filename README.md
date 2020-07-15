@@ -1,7 +1,7 @@
 # Online Robust Subspace Clustering for Analyzing Incomplete Synchrophasor Measurements
 Published in: 2016 IEEE Global Conference on Signal and Information Processing (GlobalSIP). For more information, please refer to the paper.
 
-* Tools: MATLAB
+* Tools: PSS/E, MATLAB
 
 ## Abstract
 Phasor measurement units (PMUs) are instrumental for grid monitoring thanks to high sampling rates and precise synchronization. However, collecting and analyzing the PMU data are challenging due to the large volume, computational burden, and missing measurements. In this work, a robust subspace clustering model is adopted to perform reconstruction of missing measurements while simultaneously detecting outliers, which may be due to grid abnormalities or cyber-attacks. To mitigate the computational burden and processing delay of batch computation, an online algorithm is derived based on stochastic approximation. The storage cost of the signal templates (dictionary) used for representing the data is reduced via sparsiﬁcation and pruning procedures. Numerical tests using simulated PMU data validate the performance of the proposed approach.
